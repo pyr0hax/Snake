@@ -1,2 +1,2 @@
 # Snake
-Platform: i386 compatible.
+### Compatible with 8088/8086, 80186,80286

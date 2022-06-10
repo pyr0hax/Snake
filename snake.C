@@ -49,6 +49,16 @@ void draw()
     printf("score = %d", score);
     printf("\n");
     printf("press P to quit the game");
+    printf("\n");
+    printf("Keys to use are:");
+    printf("\n");
+    printf("UP = W");
+    printf("\n");
+    printf("Down = S");
+    printf("\n");
+    printf("Left = A");
+    printf("\n");
+    printf("Right = D");
 }
 
 void input()

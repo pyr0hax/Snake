@@ -1,7 +1,6 @@
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
   
 int i, j, height = 20, width = 20;
 int gameover, score;
@@ -59,7 +58,7 @@ void input()
         case 'a':
             flag = 1;
             break;
-        case 's':
+        case 'p':
             flag = 2;
             break;
         case 'd':
@@ -77,7 +76,6 @@ void input()
   
 void logic()
 {
-    sleep(0.01);
     switch (flag) {
     case 1:
         y--;

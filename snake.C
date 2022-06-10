@@ -58,7 +58,7 @@ void input()
         case 'a':
             flag = 1;
             break;
-        case 'p':
+        case 's':
             flag = 2;
             break;
         case 'd':
@@ -67,7 +67,7 @@ void input()
         case 'w':
             flag = 4;
             break;
-        case 'x':
+        case 'p':
             gameover = 1;
             break;
         }

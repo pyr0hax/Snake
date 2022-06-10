@@ -48,7 +48,7 @@ void draw()
 
     printf("score = %d", score);
     printf("\n");
-    printf("press X to quit the game");
+    printf("press P to quit the game");
 }
 
 void input()
